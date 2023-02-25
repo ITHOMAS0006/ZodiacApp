@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">ZodiacApp</string>
+    <string-array name="zodiac_signs">
+        <item>Aries</item>
+        <item>Taurus</item>
+        <item>Gemini</item>
+        <item>Cancer</item>
+        <item>Leo</item>
+        <item>Virgo</item>
+        <item>Libra</item>
+        <item>Scorpio</item>
+        <item>Sagittarius</item>
+        <item>Capricorn</item>
+        <item>Aquarius</item>
+        <item>Pisces</item>
+    </string-array>
+
+    <integer-array name="zodiac_sign_images">
+        <item>@drawable/aries</item>
+        <item>@drawable/taurus</item>
+        <item>@drawable/gemini</item>
+        <item>@drawable/cancer</item>
+        <item>@drawable/leo</item>
+        <item>@drawable/virgo</item>
+        <item>@drawable/libra</item>
+        <item>@drawable/scorpio</item>
+        <item>@drawable/sagittarius</item>
+        <item>@drawable/capricorn</item>
+        <item>@drawable/aquarius</item>
+        <item>@drawable/pisces</item>
+    </integer-array>
+
+</resources>
