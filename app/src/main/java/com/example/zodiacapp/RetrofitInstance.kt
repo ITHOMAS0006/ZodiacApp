@@ -1,0 +1,15 @@
+package com.example.zodiacapp
+import retrofit2.Retrofit
+import retrofit2.converter.gson.GsonConverterFactory
+
+object RetrofitInstance {
+    private const val BASE_URL = "https://zodiac-api-test.onrender.com/"
+
+    val api: Zodiacapi by lazy {
+        Retrofit.Builder()
+            .baseUrl(BASE_URL)
+            .addConverterFactory(GsonConverterFactory.create())
+            .build()
+            .create(Zodiacapi::class.java)
+    }
+}

@@ -19,6 +19,7 @@ import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
 
+
 class MainActivity : AppCompatActivity()  {
 
     // Define a data class to represent a zodiac sign
@@ -136,7 +137,7 @@ class MainActivity : AppCompatActivity()  {
                     startActivity(intent)
                 }
 
-                startActivity(intent)
+              //  startActivity(intent)
             }
         })
     }
